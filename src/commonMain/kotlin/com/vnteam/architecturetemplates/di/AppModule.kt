@@ -25,14 +25,14 @@ import com.vnteam.architecturetemplates.presentation.viewmodels.DetailsViewModel
 import com.vnteam.architecturetemplates.presentation.viewmodels.ListViewModel
 import com.vnteam.architecturetemplates.presentation.mapperimpls.DemoObjectUIMapperImpl
 import com.vnteam.architecturetemplates.presentation.mapperimpls.OwnerUIMapperImpl
-import com.vnteam.architecturetemplates.presentation.mappers.DemoObjectUIMapper
+import com.vnteam.architecturetemplates.domain.mappers.DemoObjectUIMapper
 import com.vnteam.architecturetemplates.presentation.usecaseimpl.ListUseCaseImpl
 import io.ktor.client.HttpClient
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.serialization.kotlinx.json.json
 import kotlinx.serialization.json.Json
 import org.koin.dsl.module
-import com.vnteam.architecturetemplates.presentation.mappers.OwnerUIMapper
+import com.vnteam.architecturetemplates.domain.mappers.OwnerUIMapper
 import com.vnteam.architecturetemplates.presentation.usecaseimpl.AppUseCaseImpl
 import com.vnteam.architecturetemplates.presentation.usecaseimpl.CreateUseCaseImpl
 import com.vnteam.architecturetemplates.presentation.usecaseimpl.DetailsUseCaseImpl

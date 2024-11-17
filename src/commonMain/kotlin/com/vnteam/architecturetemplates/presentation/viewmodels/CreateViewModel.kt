@@ -5,7 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.vnteam.architecturetemplates.domain.models.DemoObject
 import com.vnteam.architecturetemplates.domain.usecase.CreateUseCase
 import com.vnteam.architecturetemplates.presentation.intents.CreateIntent
-import com.vnteam.architecturetemplates.presentation.mappers.DemoObjectUIMapper
+import com.vnteam.architecturetemplates.domain.mappers.DemoObjectUIMapper
 import com.vnteam.architecturetemplates.presentation.states.CreateViewState
 import com.vnteam.architecturetemplates.presentation.uimodels.DemoObjectUI
 import kotlinx.coroutines.flow.MutableStateFlow

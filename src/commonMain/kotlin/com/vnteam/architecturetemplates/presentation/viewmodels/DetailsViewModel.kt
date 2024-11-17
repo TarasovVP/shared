@@ -3,7 +3,7 @@ package com.vnteam.architecturetemplates.presentation.viewmodels
 import androidx.lifecycle.viewModelScope
 import com.vnteam.architecturetemplates.domain.usecase.DetailsUseCase
 import com.vnteam.architecturetemplates.presentation.intents.DetailsIntent
-import com.vnteam.architecturetemplates.presentation.mappers.DemoObjectUIMapper
+import com.vnteam.architecturetemplates.domain.mappers.DemoObjectUIMapper
 import com.vnteam.architecturetemplates.presentation.states.DetailsViewState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

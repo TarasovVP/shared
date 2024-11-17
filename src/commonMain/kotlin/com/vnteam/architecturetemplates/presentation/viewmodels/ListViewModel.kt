@@ -2,7 +2,7 @@ package com.vnteam.architecturetemplates.presentation.viewmodels
 
 import androidx.lifecycle.viewModelScope
 import com.vnteam.architecturetemplates.domain.models.DemoObject
-import com.vnteam.architecturetemplates.presentation.mappers.DemoObjectUIMapper
+import com.vnteam.architecturetemplates.domain.mappers.DemoObjectUIMapper
 import com.vnteam.architecturetemplates.domain.usecase.ListUseCase
 import com.vnteam.architecturetemplates.presentation.intents.ListIntent
 import com.vnteam.architecturetemplates.presentation.states.ListViewState
