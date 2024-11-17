@@ -17,10 +17,9 @@ dependencyResolutionManagement {
     }
 }
 
-include(":shared")
 include(":core")
-include(":composeUi")
-include(":composeApp")
-include(":composeWebApp")
+include(":shared")
+include(":mobile")
+include(":desktop")
+include(":web")
 include(":server")
-include(":webApp")
