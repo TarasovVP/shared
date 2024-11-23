@@ -1,4 +1,4 @@
-package presentation.screens.create
+package com.vnteam.architecturetemplates.presentation.screens.create
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -26,7 +26,6 @@ import com.vnteam.architecturetemplates.presentation.components.AvatarImage
 import com.vnteam.architecturetemplates.presentation.components.CommonTextField
 import com.vnteam.architecturetemplates.presentation.components.HeaderText
 import com.vnteam.architecturetemplates.presentation.components.PrimaryButton
-
 
 @Composable
 fun CreateContent(

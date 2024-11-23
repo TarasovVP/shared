@@ -1,4 +1,4 @@
-package presentation.screens.create
+package com.vnteam.architecturetemplates.presentation.screens.create
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -27,7 +27,7 @@ import com.vnteam.architecturetemplates.presentation.states.CreateViewState
 import com.vnteam.architecturetemplates.presentation.states.screen.ScreenState
 import com.vnteam.architecturetemplates.presentation.uimodels.DemoObjectUI
 import kotlinx.browser.window
-import navigateUp
+import com.vnteam.architecturetemplates.navigateUp
 import com.vnteam.architecturetemplates.presentation.components.AvatarImage
 import com.vnteam.architecturetemplates.presentation.components.ChangeAvatarDialog
 import com.vnteam.architecturetemplates.presentation.components.CommonTextField

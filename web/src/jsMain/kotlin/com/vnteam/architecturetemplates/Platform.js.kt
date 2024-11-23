@@ -1,4 +1,4 @@
-package presentation
+package com.vnteam.architecturetemplates
 
 import kotlinx.browser.document
 import kotlinx.browser.window

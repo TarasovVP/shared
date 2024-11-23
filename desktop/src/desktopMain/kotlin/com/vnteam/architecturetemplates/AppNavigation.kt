@@ -1,3 +1,5 @@
+package com.vnteam.architecturetemplates
+
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.navigation.NavHostController
@@ -11,9 +13,9 @@ import com.vnteam.architecturetemplates.presentation.states.screen.ScreenState
 import com.vnteam.architecturetemplates.presentation.screens.create.CreateScreen
 import com.vnteam.architecturetemplates.presentation.screens.details.DetailsScreen
 import com.vnteam.architecturetemplates.presentation.screens.list.ListScreen
-import presentation.screens.create.CreateContent
-import presentation.screens.details.DetailsContent
-import presentation.screens.list.ListContent
+import com.vnteam.architecturetemplates.presentation.screens.create.CreateContent
+import com.vnteam.architecturetemplates.presentation.screens.details.DetailsContent
+import com.vnteam.architecturetemplates.presentation.screens.list.ListContent
 
 @Composable
 fun AppNavigation(navController: NavHostController, screenState: MutableState<ScreenState>) {

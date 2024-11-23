@@ -1,7 +1,7 @@
-package presentation
+package com.vnteam.architecturetemplates
 
-import Constants.PATH_START
-import Constants.POP_STATE
+import com.vnteam.architecturetemplates.Constants.PATH_START
+import com.vnteam.architecturetemplates.Constants.POP_STATE
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.MutableState
@@ -10,15 +10,14 @@ import androidx.compose.runtime.remember
 import com.vnteam.architecturetemplates.presentation.NavigationScreens
 import com.vnteam.architecturetemplates.presentation.states.screen.ScreenState
 import kotlinx.browser.window
-import navigateTo
 import org.w3c.dom.events.Event
 import com.vnteam.architecturetemplates.presentation.screens.create.CreateScreen
 import com.vnteam.architecturetemplates.presentation.screens.details.DetailsScreen
 import com.vnteam.architecturetemplates.presentation.screens.list.ListScreen
-import presentation.screens.create.CreateContent
-import presentation.screens.details.DetailsContent
-import presentation.screens.list.ListContent
-import presentation.screens.page_not_found.PageNotFound
+import com.vnteam.architecturetemplates.presentation.screens.create.CreateContent
+import com.vnteam.architecturetemplates.presentation.screens.details.DetailsContent
+import com.vnteam.architecturetemplates.presentation.screens.list.ListContent
+import com.vnteam.architecturetemplates.presentation.screens.page_not_found.PageNotFound
 
 @Composable
 fun AppNavigation(screenState: MutableState<ScreenState>) {

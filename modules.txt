@@ -1,8 +1,6 @@
 ./core
-./webApp
-./server
+./desktop
+./mobile
 ./shared
-./composeApp
-./composeUi
-.
-./composeWebApp
+./sever
+./web

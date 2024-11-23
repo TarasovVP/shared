@@ -5,14 +5,7 @@ plugins {
 }
 
 kotlin {
-    androidTarget {
-        compilations.all {
-            kotlinOptions {
-                jvmTarget = "17"
-            }
-        }
-    }
-    task("testClasses")
+    androidTarget()
     iosX64()
     iosArm64()
     iosSimulatorArm64()

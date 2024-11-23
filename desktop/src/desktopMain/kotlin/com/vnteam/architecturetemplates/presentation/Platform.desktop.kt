@@ -1,4 +1,4 @@
-package presentation
+package com.vnteam.architecturetemplates.presentation
 
 import java.awt.Toolkit
 import java.awt.datatransfer.Clipboard

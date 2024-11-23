@@ -26,9 +26,9 @@ kotlin {
         iosSimulatorArm64()
     ).forEach {
         it.binaries.framework {
-            freeCompilerArgs += "-Xbinary=bundleId=com.vnteam.architecturetemplates.composeApp"
+            freeCompilerArgs += "-Xbinary=bundleId=com.vnteam.architecturetemplates.mobile"
             linkerOpts.add("-lsqlite3")
-            baseName = "composeApp"
+            baseName = "mobile"
             isStatic = true
         }
     }

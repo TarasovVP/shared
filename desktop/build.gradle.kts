@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.kotlinSerialization)
 }
 
 kotlin {
@@ -25,6 +26,7 @@ kotlin {
             implementation(compose.material3)
             implementation(compose.components.resources)
             implementation(libs.androidx.viewmodel.compose)
+            implementation(libs.kotlinx.serialization)
             //Koin
             implementation(libs.koin.core)
             implementation(libs.koin.compose)
@@ -41,7 +43,7 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "MainKt"
+        mainClass = "com.vnteam.architecturetemplates.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)

@@ -1,3 +1,5 @@
+package com.vnteam.architecturetemplates
+
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
@@ -26,11 +28,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.rememberNavController
-import com.vnteam.architecturetemplates.Res
 import com.vnteam.architecturetemplates.data.APP_LANG_EN
 import com.vnteam.architecturetemplates.data.APP_LANG_UK
-import com.vnteam.architecturetemplates.ic_dark_mode
-import com.vnteam.architecturetemplates.ic_light_mode
 import com.vnteam.architecturetemplates.presentation.resources.LocalSmallPadding
 import com.vnteam.architecturetemplates.presentation.resources.LocalStringResources
 import com.vnteam.architecturetemplates.presentation.resources.getStringResourcesByLocale
