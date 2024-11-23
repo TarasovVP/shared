@@ -4,8 +4,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import org.koin.compose.koinInject
-import presentation.App
-import presentation.setActivityProvider
+import com.vnteam.architecturetemplates.presentation.App
+import com.vnteam.architecturetemplates.utils.setActivityProvider
 
 class MainActivity : ComponentActivity() {
 

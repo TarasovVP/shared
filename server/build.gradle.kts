@@ -1,9 +1,9 @@
 plugins {
+    application
     alias(libs.plugins.kotlinJvm)
     alias(libs.plugins.ktor)
     alias(libs.plugins.kotlinSerialization)
     alias(libs.plugins.sqlDelight)
-    application
 }
 
 group = "com.vnteam.architecturetemplates"
