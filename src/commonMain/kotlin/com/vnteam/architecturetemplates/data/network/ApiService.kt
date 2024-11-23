@@ -1,6 +1,6 @@
 package com.vnteam.architecturetemplates.data.network
 
-import com.vnteam.architecturetemplates.domain.responses.DemoObjectResponse
+import com.vnteam.architecturetemplates.data.network.responses.DemoObjectResponse
 import io.ktor.client.HttpClient
 import io.ktor.client.request.delete
 import io.ktor.client.request.get

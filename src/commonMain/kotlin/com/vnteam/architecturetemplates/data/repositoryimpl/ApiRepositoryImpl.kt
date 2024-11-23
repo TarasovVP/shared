@@ -2,7 +2,7 @@ package com.vnteam.architecturetemplates.data.repositoryimpl
 
 import com.vnteam.architecturetemplates.data.network.ApiService
 import com.vnteam.architecturetemplates.data.network.NetworkResult
-import com.vnteam.architecturetemplates.domain.mappers.DemoObjectResponseMapper
+import com.vnteam.architecturetemplates.data.mappers.DemoObjectResponseMapper
 import com.vnteam.architecturetemplates.domain.models.DemoObject
 import com.vnteam.architecturetemplates.domain.repositories.ApiRepository
 import kotlinx.coroutines.flow.Flow

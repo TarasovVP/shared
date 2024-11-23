@@ -12,8 +12,8 @@ import com.vnteam.architecturetemplates.data.repositoryimpl.ApiRepositoryImpl
 import com.vnteam.architecturetemplates.data.repositoryimpl.DBRepositoryImpl
 import com.vnteam.architecturetemplates.data.repositoryimpl.PreferencesRepositoryImpl
 import com.vnteam.architecturetemplates.domain.mappers.DemoObjectDBMapper
-import com.vnteam.architecturetemplates.domain.mappers.DemoObjectResponseMapper
-import com.vnteam.architecturetemplates.domain.mappers.OwnerResponseMapper
+import com.vnteam.architecturetemplates.data.mappers.DemoObjectResponseMapper
+import com.vnteam.architecturetemplates.data.mappers.OwnerResponseMapper
 import com.vnteam.architecturetemplates.domain.repositories.ApiRepository
 import com.vnteam.architecturetemplates.domain.repositories.DBRepository
 import com.vnteam.architecturetemplates.domain.repositories.PreferencesRepository

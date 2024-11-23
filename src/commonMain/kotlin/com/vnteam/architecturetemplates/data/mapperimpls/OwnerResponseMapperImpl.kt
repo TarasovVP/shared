@@ -1,7 +1,7 @@
 package com.vnteam.architecturetemplates.data.mapperimpls
 
-import com.vnteam.architecturetemplates.domain.responses.OwnerResponse
-import com.vnteam.architecturetemplates.domain.mappers.OwnerResponseMapper
+import com.vnteam.architecturetemplates.data.mappers.OwnerResponseMapper
+import com.vnteam.architecturetemplates.data.network.responses.OwnerResponse
 import com.vnteam.architecturetemplates.domain.models.Owner
 
 class OwnerResponseMapperImpl : OwnerResponseMapper {

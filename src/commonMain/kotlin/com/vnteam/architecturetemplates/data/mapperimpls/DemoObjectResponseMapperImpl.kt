@@ -1,9 +1,9 @@
 package com.vnteam.architecturetemplates.data.mapperimpls
 
-import com.vnteam.architecturetemplates.domain.responses.DemoObjectResponse
-import com.vnteam.architecturetemplates.domain.responses.OwnerResponse
-import com.vnteam.architecturetemplates.domain.mappers.DemoObjectResponseMapper
-import com.vnteam.architecturetemplates.domain.mappers.OwnerResponseMapper
+import com.vnteam.architecturetemplates.data.mappers.DemoObjectResponseMapper
+import com.vnteam.architecturetemplates.data.mappers.OwnerResponseMapper
+import com.vnteam.architecturetemplates.data.network.responses.DemoObjectResponse
+import com.vnteam.architecturetemplates.data.network.responses.OwnerResponse
 import com.vnteam.architecturetemplates.domain.models.DemoObject
 import com.vnteam.architecturetemplates.domain.models.Owner
 
